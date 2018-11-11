@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: kubectl
   author: Eric Anderson
   description: Role to install kubectl
   company: Avi Networks
