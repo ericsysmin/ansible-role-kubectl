@@ -6,12 +6,12 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: instance
+  - name: debian-stretch
     image: debian:stretch
-  - name: instance
-    image: fedora:29
-  - name: instance
+    privileged: true
+  - name: centos-7
     image: centos:7
+    privileged: true
 provisioner:
   name: ansible
   lint:
