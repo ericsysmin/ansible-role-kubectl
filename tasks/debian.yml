@@ -16,4 +16,4 @@
 - name: kubectl | Install the kubectl package
   apt:
     name: kubectl
-    update_cache: yes
+    update_cache: true
