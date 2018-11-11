@@ -31,4 +31,4 @@ BSD
 
 ## Author Information
 
-Eric Anderson
+[ericsysmin](https://ericsysmin.com)
