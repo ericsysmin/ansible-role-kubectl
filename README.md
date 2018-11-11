@@ -1,5 +1,7 @@
 # ericsysmin.kubectl
 
+[![Build Status](https://travis-ci.org/ericsysmin/ansible-role-kubectl.svg?branch=master)](https://travis-ci.org/ericsysmin/ansible-role-kubectl)
+
 A brief description of the role goes here.
 
 ## Requirements
