@@ -5,13 +5,14 @@ driver:
   name: docker
 lint:
   name: yamllint
+  options:
+    config-file: molecule/default/.yamllint
 platforms:
-  - name: debian-stretch
-    image: debian:stretch
+  - name: instance
+    image: ${MOLECULE_DISTRO}
     privileged: true
-  - name: centos-7
-    image: centos:7
-    privileged: true
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
 provisioner:
   name: ansible
   lint:
