@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: kubectl
-  author: Eric Anderson
+  author: ericsysmin
   description: Role to install kubectl
   company: Avi Networks
   license: Apache 2.0
