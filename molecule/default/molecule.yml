@@ -8,6 +8,10 @@ lint:
 platforms:
   - name: instance
     image: debian:stretch
+  - name: instance
+    image: fedora:29
+  - name: instance
+    image: centos:7
 provisioner:
   name: ansible
   lint:
