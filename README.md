@@ -18,8 +18,7 @@ None
 
 ## Example Playbook
 
-```
-
+```yaml
 - hosts: servers
     roles:
       - role: ericsysmin.kubectl
